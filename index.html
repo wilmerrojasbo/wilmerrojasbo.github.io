@@ -1,1 +1,592 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilmer Rojas - Portafolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="img/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="icon" type="image/ico" href="img/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="fa/css/all.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="progress fixed-top" style="height: 5px;">
+        <div id="pgb" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <section class="bg">
+      <div class="container h-100">
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+             <!-- Rounded switch -->
+            <label class="switch">
+              <input type="checkbox" onclick="change_lang()">
+              <div class="slider round"></div>
+            </label>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a id="list-home" class="nav-link text-white" href="#" >Main();</a>
+                </li>
+                <li class="nav-item">
+                  <a id="list-about" class="nav-link text-white" href="#about" data-translate="menu-about">About();</a>
+                </li>
+                <li class="nav-item">
+                  <a id="list-portfolio" class="nav-link text-white" href="#portfolio" data-translate="menu-portfolio">Portfolio();</a>
+                </li>
+                <li class="nav-item">
+                    <a id="list-contact" class="nav-link text-white" href="#contact" data-translate="menu-contact">Contact();</a>
+                </li>
+                <li class="nav-item">
+                  <a id="list-cv" class="nav-link text-white" href="esp/doc/CV_Wilmer_Rojas.pdf" download>CV();</a>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+        <div class="center">
+            <center>
+                <div class="text home-text">
+                    <h1 class="h1" data-translate="greet">Hello, I am <span class="highlight">Wilmer Rojas</span>.</h1>
+                    <h1 class="h1" data-translate="ocupation">I'm a Computer Engineer.</h1>
+                </div>
+                <!--<div class="button page-link">
+                    Mi Trabajo <i class="fas fa-laptop-code"></i>
+                </div>
+                <div data-translate="greet"></div>-->
+                    <!--<button onclick="change_lang()">Change Language</button>-->
+                    
+                <a id="btn-work" class="button page-link" href="#portfolio" data-translate="btn-work">My Work <i class="fas fa-laptop-code"></i></a>
+            </center>
+        </div>
+      </div> 
+    </section>      
+    <section class="h-100">
+        <div id="about" class="h-100 bg-light text-dark col-md-12 content">
+          <div class="col-md-12 p-3 about-title">
+            <div class="row justify-content-center title-about" data-translate="about">
+              <h3>About(</h3><h3 style="color: #ac4c1e;">'Wilmer Rojas'</h3><h3>);</h3>
+            </div>
+          </div>
+          <div class="col-md-12 mt-2 mb-2">
+            <div class="row d-flex justify-content-center">
+              <div class="text-center p-2 mx-4 mb-4 div-dev">
+                <div class="circle d-flex justify-content-center">
+                  <i class="fas fa-file-code fa-3x text-white mt-auto mb-auto"></i>
+                </div>
+                <h5 class="mt-3" data-translate="development">Development</h5>
+              </div>
+              <div class="text-center p-2 mx-4 mb-4 div-design">
+                <div class="circle d-flex justify-content-center">
+                  <i class="fas fa-pencil-alt fa-3x text-white mt-auto mb-auto"></i>
+                </div>
+                <h5 class="mt-3" data-translate="design">Design</h5>
+              </div>
+              <div class="text-center p-2 mx-4 mb-4 div-supp">
+                <center>
+                  <div class="circle d-flex justify-content-center">
+                    <i class="fas fa-cogs fa-3x text-white mt-auto mb-auto"></i>
+                  </div>
+                </center>
+                <h5 class="mt-3" data-translate="tech-support">Tech Support</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row h-100 d-flex justify-content-center">
+
+            <div class="col-md-4">
+              <center>
+                <img id="logo-about" src="img/lg2r.png" alt="logo" width="50%">
+                <h5 class="text-lema" data-translate="lema">Codifying your ideas.</h5>
+              </center>
+              <p class="p-about text-justify" data-translate="text-about">
+                I am a Computer Engineer, I have worked in design and development of websites and android applications, 
+                I have also provided support services and / or computer consultant. I've always had a great interest in learning new technologies 
+                and creating dynamic and intuitive user interfaces.
+              </p>
+            </div>
+
+            <div class="page-content page-container col-md-6" id="page-content">
+              <div class="padding">
+                  <div class="row container d-flex justify-content-center">
+                      <div class="col-xl-12">
+                          <div class="card proj-progress-card">
+                              <div class="card-block">
+                                  <div class="row pro-skill">
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">Android</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">80%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 80%;"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">Java</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">60%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 60%;" aria-valuemax="60"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">HTML</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green ">80%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 80%;" aria-valuemax="80"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">CSS</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">80%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 80%;" aria-valuemax="80"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">Bootstrap</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">75%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 75%;" aria-valuemax="75"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">PHP</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">75%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 75%;" aria-valuemax="75"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">JavaScript</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">75%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 75%;" aria-valuemax="75"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">jQuery</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">60%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 60%;" aria-valuemax="60"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">MySQL</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">60%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 60%;" aria-valuemax="60"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">Git</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">20%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 20%;" aria-valuemax="20"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">Github</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">20%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 20%;" aria-valuemax="20"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">WordPress</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">60%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 60%;" aria-valuemax="60"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">C#</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">65%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 65%;" aria-valuemax="65"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">C++</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">65%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 65%;" aria-valuemax="65"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">Photoshop</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">70%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 70%;" aria-valuemax="70"></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-3 col-md-6">
+                                        <h6 class="font-weight-bold">MS Office</h6>
+                                        <h6 class="m-b-20 f-w-700"><span class="text-c-green">70%</span></h6>
+                                        <div class="progress bg-pr-orange">
+                                            <div class="progress-bar bg-c-blue" style="width:0%; max-width: 70%;" aria-valuemax="70"></div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>   
+    <section class="h-100">
+      <div id="portfolio" class="text-dark col-md-12 content">
+        <div class="col-md-12 p-3 portfolio-title h-100">
+          <div class="row justify-content-center title-portfolio" data-translate="portfolio">
+            <h3>Portfolio(</h3><h3 style="color: #ac4c1e;">'Projects'</h3><h3>);</h3>
+          </div>
+        </div>
+
+        <!--aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+
+        <div class="container my-4">
+          <hr class="mb-5"/>
+          
+          <!-- Grid row -->
+          <div class="row">
+          
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-12 mb-4">
+          
+              <!--Modal: Name-->
+              <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+          
+                  <!--Content-->
+                  <div class="modal-content">
+
+                    <div class="modal-header d-flex justify-content-between">
+                      <h5 class="mr-4 font-weight-bold">MGB Legal</h5>
+                      <a href="http://www.mgblegal.com" target="_blank" class="btn btn-outline-danger btn-rounded btn-md ml-4" data-translate="visit-text">Visit the Site <i class="fas fa-external-link-square-alt"></i> </a>
+                      <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">X</button>
+
+                    </div>
+          
+                    <!--Body-->
+                    <div class="modal-body mb-0 p-0">
+          
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        
+                        <div id="carouselExampleControls" class="carousel slide embed-responsive-item" data-ride="carousel" data-interval="false">
+                  
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img id="img-slide-1-mgb" class="d-block w-100" src="esp/img/projects/mgblegal-thumb.PNG" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img id="img-slide-2-mgb" class="d-block w-100" src="esp/img/projects/mgblegal1.PNG" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img id="img-slide-3-mgb" class="d-block w-100" src="esp/img/projects/mgblegal2.PNG" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img id="img-slide-4-mgb" class="d-block w-100" src="esp/img/projects/mgblegal3.PNG" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img id="img-slide-5-mgb" class="d-block w-100" src="esp/img/projects/mgblegal4.PNG" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img id="img-slide-6-mgb" class="d-block w-100" src="esp/img/projects/mgblegal5.PNG" alt="Third slide">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+
+                      </div>
+          
+                    </div>
+          
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <h6 class="font-weight-bold" data-translate="details">Details</h6>
+                      <p class="text-justify border-left p-1" data-translate="p-project-1">
+                        The law firm MGB Legal, required a redesign of their website, 
+                        using HTML, PHP, CSS, JavaScript and WordPress. We also performed the 
+                        design and development of an application that consists of two parts, the first one is based on receiving and sending 
+                        emails from the firm, the second part fulfills the function of consulting, answering or 
+                        the function of consulting, replying or deleting comments on its website. 
+                        This application was programmed using Android Studio, JavaMail and Firebase.
+                      </p>
+                    </div>
+          
+                  </div>
+                  <!--/.Content-->
+          
+                </div>
+              </div>
+              <!--Modal: Name-->
+          
+              <!--<a><img class="img-fluid z-depth-1" src="img/mgblegal-thumb.PNG" alt="mgblegal-thumb"
+                  data-toggle="modal" data-target="#modal1"></a>-->
+
+                  <div class="hovereffect project-1">
+                    <img id="img-mgb" class="img-fluid z-depth-1" src="esp/img/projects/mgblegal-thumb.PNG" alt="">
+                    <div class="overlay">
+                       <h2>MGB Legal Website</h2>
+                       <h6>WordPress</h6>
+                       <a class="info" data-toggle="modal" data-target="#modal1" data-translate="read-more">Read More</a>
+                    </div>
+                  </div>
+          
+            </div>
+            <!-- Grid column -->
+          
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+          
+              <!--Modal: Name-->
+              <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+          
+                  <!--Content-->
+                  <div class="modal-content">
+
+                    <div class="modal-header justify-content-between">
+                      <h5 class="mr-4 font-weight-bold">Internista a Domicilio</h5>
+                      <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">X</button>
+                    </div>
+          
+                    <!--Body-->
+                    <div class="modal-body mb-0 p-0">
+          
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <div id="carouselExampleControls2" class="carousel slide embed-responsive-item" data-ride="carousel" data-interval="false">
+                  
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img id="img-slide-1-intdom" class="d-block w-100" src="esp/img/projects/intdom-thumb.PNG" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img id="img-slide-2-intdom" class="d-block w-100" src="esp/img/projects/intdom1.png" alt="Second slide" >
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+          
+                    </div>
+          
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <h6 class="font-weight-bold" data-translate="details">Details</h6>
+                      <p class="text-justify border-left p-1" data-translate="p-project-2">
+                        I designed and developed a mobile application in which the client required that its users could keep track of their
+                        blood pressure and glucose. Also has the function to schedule an appointment with the Internist at Home doctors and includes a
+                        and includes a shopping section where users can purchase the products the company offers.
+                        purchase the products offered by the company.
+                        This application was developed using Android Studio, the prototype design was done using InVision Studio, database management and user authentication was done with the
+                        authentication was done with the Firebase platform.
+                      </p>
+                    </div>
+          
+                  </div>
+                  <!--/.Content-->
+          
+                </div>
+              </div>
+              <!--Modal: Name-->
+          
+                <div class="hovereffect project-2">
+                  <img id="img-intdom" class="img-fluid z-depth-1" src="esp/img/projects/intdom-thumb.PNG" alt="">
+                  <div class="overlay">
+                      <h2>App Internista a Domicilio</h2>
+                      <h6>Android Studio / Firebase</h6>
+                      <a class="info" data-toggle="modal" data-target="#modal2" data-translate="read-more">Read More</a>
+                  </div>
+                </div>
+          
+            </div>
+            <!-- Grid column -->
+          
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+          
+              <!--Modal: Name-->
+              <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+          
+                  <!--Content-->
+                  <div class="modal-content">
+
+                    <div class="modal-header justify-content-between">
+                      <h5 class="mr-4 font-weight-bold">Pollstar Software</h5>
+                      <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">X</button>
+                    </div>
+          
+                    <!--Body-->
+                    <div class="modal-body mb-0 p-0">
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <img id="img-slide-1-ss" class="embed-responsive-item" src="esp/img/projects/splitstream-thumb.PNG">
+                      </div>
+                    </div>
+          
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <h6 class="font-weight-bold" data-translate="details">Details</h6>
+                      <p class="text-justify border-left p-1" data-translate="p-project-3">
+                        Split Stream is an application where users can watch multiple channels of the Twitch.tv platform.
+                        Twitch.tv platform. This application was developed with Android Studio and makes use of HTML, CSS and JavaScript.
+                        HTML, CSS and JavaScript.
+                      </p>
+                    </div>
+          
+                  </div>
+                  <!--/.Content-->
+          
+                </div>
+              </div>
+              <!--Modal: Name-->
+          
+              <div class="hovereffect project-3">
+                <img id="img-ss" class="img-fluid z-depth-1" src="esp/img/projects/splitstream-thumb.PNG" alt="">
+                <div class="overlay">
+                    <h2>App Split Stream</h2>
+                    <h6>Android Studio / HTML / CSS / JavaScript</h6>
+                    <a class="info" data-toggle="modal" data-target="#modal3" data-translate="read-more">Read More</a>
+                </div>
+              </div>
+          
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+          
+              <!--Modal: Name-->
+              <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+          
+                  <!--Content-->
+                  <div class="modal-content">
+
+                    <div class="modal-header justify-content-between">
+                      <h5 class="mr-4 font-weight-bold">Internista a Domicilio</h5>
+                      <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">X</button>
+                    </div>
+          
+                    <!--Body-->
+                    <div class="modal-body mb-0 p-0">
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <img id="img-slide-1-ss" class="embed-responsive-item" src="img/projects/intdom-dashboard-thumb.PNG">
+                      </div>
+                    </div>
+          
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <h6 class="font-weight-bold" data-translate="details">Details</h6>
+                      <p class="text-justify border-left p-1" data-translate="p-project-4">
+                        I developed a Dashboard that fulfills three functions:<br>
+                        1. Home Internist physicians can consult their patients' Blood Pressure and Glucose data, they can add a clinical summary, they can also visualize a list of their patients with high records.<br>
+                        2. Patients can register and consult their Blood Pressure and Glucose data, they can consult their clinical summary and add family members so that they can monitor the data.<br>
+                        3. Patients' relatives can only consult the Blood Pressure, Glucose and clinical summary data.
+                      </p>
+                    </div>
+          
+                  </div>
+                  <!--/.Content-->
+          
+                </div>
+              </div>
+              <!--Modal: Name-->
+          
+              <div class="hovereffect project-4">
+                <img id="img-intdom-dash" class="img-fluid z-depth-1" src="img/projects/intdom-dashboard-thumb.PNG" alt="">
+                <div class="overlay">
+                    <h2>Dashboard</h2>
+                    <h6>HTML / CSS / JavaScript / Firebase</h6>
+                    <a class="info" data-toggle="modal" data-target="#modal4" data-translate="read-more">Read More</a>
+                </div>
+              </div>
+          
+            </div>
+            <!-- Grid column -->
+          
+          </div>
+      <!-- Grid row -->
+        </div>
+
+        <!--aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+      </div>
+    </section> 
+    <section class="h-100 bg-dark">
+      <div id="contact" class="col-md-12 ">
+        <div class="col-md-12 p-3 contact-title">
+          <div class="row justify-content-center title-contact" data-translate="contact">
+            <h3>Contact(</h3><h3 style="color: #ac4c1e;">''</h3><h3>);</h3>
+          </div>
+        </div>
+        <div class="container h-100">
+          <hr class="mt-0 bg-light"/>
+          
+          <div class="col-md-6 ml-auto mr-auto">
+            <h6 class="text-center mb-4 mt-0" data-translate="contact-text">Do you have any questions or would you like to work together?</h6>
+            <form id="contact-form">
+        
+              <label for="name" data-translate="name-form">Name</label>
+              <input type="text" id="name" name="name" placeholder="Su nombre..">
+          
+              <label for="email" data-translate="email-form">Email</label>
+              <input type="text" id="email" name="email" placeholder="Su correo..">
+          
+              <label for="message" data-translate="msg-form">Message</label>
+              <textarea id="message" name="message" placeholder="Ingrese su mensaje.." style="height:200px"></textarea>
+          
+              <input id="btn-submit" type="submit" value="Enviar" onclick="sendData()">
+          
+            </form>
+          </div>
+  
+        </div>
+      </div> 
+    </section>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    <!--<script>
+      $('#notification').hide();
+      $('#contact-form').submit(function() {
+        var post_data = $('#contact-form').serialize();
+        $.post('../contact.php', post_data, function(data) {
+          $('#notification').show();
+        });
+      });
+
+    </script>-->
+</body>
+</html>
