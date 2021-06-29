@@ -238,14 +238,7 @@ var dictionary = {
     'read-more':{
         'es': 'Ver Más',
         'en': 'Read More'
-    },/*cambiar project 2 a esto
-        Diseñé y desarrollé una aplicación móvil en la que el cliente requería que sus usuarios pudieran llevar un control de su presión arterial y glucosa. Cuando un paciente registra un dato de presión arterial o glucosa alta, la aplicación automáticamente notifica a un médico de internista a domicilio mediante correo.
-        También tiene la función de agendar una cita con los doctores de Internista a Domicilio e incluye una sección de compras donde los usuarios pueden adquirir los productos que la empresa ofrece. Esta aplicación fue desarrollada usando Android Studio, el diseño del prototipo se hizo usando InVision Studio, el manejo de la base de datos y la autenticación de los usuarios se hizo con la plataforma Firebase.
-
-        I designed and developed a mobile application in which the client required that its users could keep track of their blood pressure and glucose. When a patient registers a high blood pressure or glucose, the application automatically notifies a home internist doctor via email.
-        It also has the function of scheduling an appointment with Internista a Domicilio doctors and includes a shopping section where users can purchase products offered by the company. This application was developed using Android Studio, the prototype design was done using InVision Studio, the database management and user authentication was done with the Firebase platform.
-
-    */
+    },
     'p-project-2':{
         'es': 'Diseñé y desarrollé una aplicación móvil en la que el cliente requería que sus '+
         'usuarios pudieran llevar el control de su presión arterial y glucosa. También'+
@@ -339,10 +332,10 @@ function change_img(){
         $('#img-ss').attr('src','img/projects/splitstream-eng-thumb.PNG');
     }
 
-    if($('#img-intdom').attr('src') === 'img/projects/intdom-eng-thumb.PNG'){
-        $('#img-intdom').attr('src','esp/img/projects/intdom-thumb.PNG');
+    if($('#img-intdom').attr('src') === 'img/projects/intdomengthumb.PNG'){
+        $('#img-intdom').attr('src','esp/img/projects/intdomthumb.PNG');
     }else{
-        $('#img-intdom').attr('src','img/projects/intdom-eng-thumb.PNG');
+        $('#img-intdom').attr('src','img/projects/intdomengthumb.PNG');
     }
 
     if($('#img-slide-1-mgb').attr('src')=== 'img/projects/mgblegal-eng-thumb.PNG'){
@@ -381,10 +374,10 @@ function change_img(){
         $('#img-slide-6-mgb').attr('src','img/projects/mgblegal5-eng.PNG');
     }
 
-    if($('#img-slide-1-intdom').attr('src')=== 'img/projects/intdom-eng-thumb.PNG'){
-        $('#img-slide-1-intdom').attr('src','esp/img/projects/intdom-thumb.PNG');
+    if($('#img-slide-1-intdom').attr('src')=== 'img/projects/intdomengthumb.PNG'){
+        $('#img-slide-1-intdom').attr('src','esp/img/projects/intdomthumb.PNG');
     }else{
-        $('#img-slide-1-intdom').attr('src','img/projects/intdom-eng-thumb.PNG');
+        $('#img-slide-1-intdom').attr('src','img/projects/intdomengthumb.PNG');
     }
 
     if($('#img-slide-2-intdom').attr('src')=== 'img/projects/intdom1.png'){
