@@ -38,7 +38,6 @@ $(document).on("scroll", function(){
 
 var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -49,7 +48,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -59,8 +57,6 @@ $('.pro-skill .progress .progress-bar').animate({
     width:'100%'
 }, 1000);
 
-
-/*******************************/
 window.sr = ScrollReveal();
 sr.reveal('.navbar',{
     duration: 2000,
@@ -401,22 +397,16 @@ function change_img(){
         $('#img-slide-1-intdom').attr('src','https://wilmerrojasbo.files.wordpress.com/2021/07/intdom-eng-thumb.png');
     }
 
-    /*if($('#img-slide-2-intdom').attr('src')=== 'http://localhost/portafolio/wp-content/themes/portfoliowil/images/projects/intdom1.png'){
-        $('#img-slide-2-intdom').attr('src','http://localhost/portafolio/wp-content/themes/portfoliowil/esp/images/projects/intdom1.png');
-    }else{
-        $('#img-slide-2-intdom').attr('src','http://localhost/portafolio/wp-content/themes/portfoliowil/images/projects/intdom1.png');
-    }*/
-
     if($('#img-slide-1-ss').attr('src')=== 'https://wilmerrojasbo.files.wordpress.com/2021/07/splitstream-eng-thumb.png'){
         $('#img-slide-1-ss').attr('src','https://wilmerrojasbo.files.wordpress.com/2021/07/splitstream-thumb.png');
     }else{
         $('#img-slide-1-ss').attr('src','https://wilmerrojasbo.files.wordpress.com/2021/07/splitstream-eng-thumb.png');
     }
 
-    if($('#list-cv').attr('href') === 'https://wilmerrojasbo.files.wordpress.com/2021/07/cv_wilmer_rojas.pdf'){
-        $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/07/cv_wilmer_rojas-1.pdf');
+    if($('#list-cv').attr('href') === 'https://wilmerrojasbo.files.wordpress.com/2021/07/cv_wilmer_rojas-2.pdf'){
+        $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/07/cv_wilmer_rojas_1.pdf');
     }else{
-        $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/07/cv_wilmer_rojas.pdf');
+        $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/07/cv_wilmer_rojas-2.pdf');
     }
 
     if($('#name').attr('placeholder') === 'Su nombre..'){
