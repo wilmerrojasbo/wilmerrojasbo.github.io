@@ -198,12 +198,12 @@ var dictionary = {
         'en': 'Codifying your ideas.'
     },
     'text-about':{
-        'es': 'Soy Ingeniero en Computación, he trabajado en diseño y desarrollado de sitios web y aplicaciones android,'+ 
-        'también eh brindado servicios de soporte y/o consultor informático. Siempre eh tenido un gran interes en aprender nuevas tecnologías'+ 
-        'y en crear interfaces de usuario dinámicas e intuitivas.',
-        'en': 'I am a Computer Engineer, I have worked in design and development of websites and android applications,'+ 
-        'I have also provided support services and / or computer consultant. I\'ve always had a great interest in learning new technologies'+ 
-        'and creating dynamic and intuitive user interfaces.'
+        'es': 'Soy un Ingeniero Informático con más de 2 años de experiencia como desarrollador Full Stack web y nativo de Android (Java).'+ 
+        'Durante mi carrera he podido aprender y mejorar habilidades que me han ayudado a construir un perfil específico.'+ 
+        'Siempre he tenido un gran interés por aprender nuevas tecnologías y crear interfaces de usuario dinámicas e intuitivas.',
+        'en': 'I am a Computer Engineer with more than 2 years of experience as a Full Stack web and native Android (Java) developer. '+ 
+        'During my career I have been able to learn and improve skills that have helped me to build a specific profile.'+ 
+        'I\'ve always had a great interest in learning new technologies and creating dynamic and intuitive user interfaces.'
     },
     'portfolio':{
         'es':'<h3>Portafolio(</h3><h3 style="color: #ac4c1e;">\'Proyectos\'</h3><h3>);</h3>',
