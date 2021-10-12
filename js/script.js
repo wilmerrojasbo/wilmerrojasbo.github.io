@@ -403,10 +403,10 @@ function change_img(){
         $('#img-slide-1-ss').attr('src','https://wilmerrojasbo.files.wordpress.com/2021/07/splitstream-eng-thumb.png');
     }
 
-    if($('#list-cv').attr('href') === 'https://wilmerrojasbo.files.wordpress.com/2021/10/cv-wilmer-rojas-ingeniero-informatico.pdf'){
-        $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/10/cv-wilmer-rojas-computer-engineer.pdf');
-    }else{
+    if($('#list-cv').attr('href') === 'https://wilmerrojasbo.files.wordpress.com/2021/10/cv-wilmer-rojas-computer-engineer.pdf'){
         $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/10/cv-wilmer-rojas-ingeniero-informatico.pdf');
+    }else{
+        $('#list-cv').attr('href','https://wilmerrojasbo.files.wordpress.com/2021/10/cv-wilmer-rojas-computer-engineer.pdf');
     }
 
     if($('#name').attr('placeholder') === 'Su nombre..'){
