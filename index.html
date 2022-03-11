@@ -551,10 +551,10 @@
 
             <form id="contact-form">
               <label for="name" data-translate="name-form">Name</label>
-              <input type="text" id="name" name="name" placeholder="Su nombre.." required>
+              <input type="text" id="name" name="name" placeholder="Su nombre.." pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$" required >
           
               <label for="email" data-translate="email-form">Email</label>
-              <input type="text" id="email" name="email" placeholder="Su correo.." required>
+              <input type="email" id="email" name="email" placeholder="Su correo.." required>
           
               <label for="message" data-translate="msg-form">Message</label>
               <textarea id="message" name="message" placeholder="Ingrese su mensaje.." style="height:200px" required></textarea>
