@@ -153,10 +153,6 @@ sr.reveal('.project-4',{
 }); 
 
 var dictionary = {
-    'tab-title':{
-        'es': 'Wilmer Rojas - Portafolio',
-        'en': 'Wilmer Rojas - Portfolio'
-    },
     'menu-about':{
         'es':'AcercaDe();',
         'en':'About();'
