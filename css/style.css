@@ -35,7 +35,7 @@ body, html{
     justify-content: center;
     font-size: 16pt;
     line-height: 20pt;
-    font-family: 'Lucida Console';
+    /*font-family: 'Lucida Console';*/
 }
 
 .text {
@@ -133,7 +133,7 @@ body, html{
     word-wrap: break-word;
     background-color: #ffffff00;
     background-clip: border-box;
-    border-radius: 0;
+    border-radius: 5px;
     columns: 3;
 }
 
@@ -230,9 +230,9 @@ h6 {
     height: 115px;
 }
 
-.text-lema{
+/*.text-lema{
     font-family: 'lucida console';
-}
+}*/
 
 .hovereffect {
     width: 100%;
